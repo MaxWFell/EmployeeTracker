@@ -1,20 +1,19 @@
 {
-    "name": "employeetracker",
+    "name": "hw12-employee-tracker",
     "version": "1.0.0",
-    "description": "SQL Challenge: Employee Tracker",
-    "main": "server.js",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
+   
     "keywords": [],
     "author": "",
     "license": "ISC",
+    
     "dependencies": {
-        "console.table": "^0.10.0",
-        "dotenv": "^16.0.1",
-        "express": "^4.18.2",
-        "inquirer": "^8.2.5",
-        "mysql2": "^2.3.3"
+      "console.table": "^0.10.0",
+      "inquirer": "^8.2.0",
+      "mysql2": "^2.3.3"
     }
-}
+  }
